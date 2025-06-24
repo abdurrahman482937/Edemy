@@ -1,4 +1,3 @@
-import React from 'react'
 import { Route, Routes, useMatch } from 'react-router-dom'
 import Home from './pages/student/Home.jsx';
 import CoursesList from './pages/student/CoursesList.jsx';
