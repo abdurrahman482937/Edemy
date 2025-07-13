@@ -29,7 +29,7 @@ export default function App() {
         <Route path='/player/:courseId' element={<Player />} />
         <Route path='/Loading/:path' element={<Loading />} />
         <Route path='/educator' element={<Educator />}>
-          <Route path='educator' element={<Dashboard />} />
+          <Route path='/educator' element={<Dashboard />} />
           <Route path='add-course' element={<AddCourse />} />
           <Route path='my-courses' element={<MyCourses />} />
           <Route path='student-enrolled' element={<StudentsEnrolled />} />
