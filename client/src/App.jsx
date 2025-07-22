@@ -1,15 +1,15 @@
 import { Route, Routes, useMatch } from 'react-router-dom'
-import Home from './pages/student/Home.jsx';
-import CoursesList from './pages/student/CoursesList.jsx';
-import CourseDetails from './pages/student/CourseDetails.jsx';
-import MyEnrollments from './pages/student/MyEnrollments.jsx';
-import Player from './pages/student/Player.jsx';
+import Home from '../src/pages/student/Home.jsx';
+import CoursesList from '../src/pages/student/CoursesList.jsx';
+import CourseDetails from '../src/pages/student/CourseDetails.jsx';
+import MyEnrollments from '../src/pages/student/MyEnrollments.jsx';
+import Player from '../src/pages/student/Player.jsx';
 import Loading from './components/student/Loading.jsx';
-import Educator from './pages/educator/Educator.jsx';
-import Dashboard from './pages/educator/Dashboard.jsx';
-import AddCourse from './pages/educator/AddCourse.jsx';
-import MyCourses from './pages/educator/MyCourses.jsx';
-import StudentsEnrolled from './pages/educator/StudentsEnrolled.jsx';
+import Educator from '../src/pages/educator/Educator.jsx';
+import Dashboard from '../src/pages/educator/Dashboard.jsx';
+import AddCourse from '../src/pages/educator/AddCourse.jsx';
+import MyCourses from '../src/pages/educator/MyCourses.jsx';
+import StudentsEnrolled from '../src/pages/educator/StudentsEnrolled.jsx';
 import Navbar from './components/student/Navbar.jsx';
 import "quill/dist/quill.snow.css";
 
